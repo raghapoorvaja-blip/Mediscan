@@ -1,0 +1,41 @@
+{
+  "class_names": [
+    "glioma_tumor",
+    "meningioma_tumor",
+    "no_tumor",
+    "pituitary_tumor"
+  ],
+  "image_size": 128,
+  "test_accuracy": 0.5431,
+  "validation_accuracy": 0.8508,
+  "epochs_run": 25,
+  "training_images": 2441,
+  "test_images": 394,
+  "confusion_matrix": [
+    [
+      18,
+      24,
+      47,
+      11
+    ],
+    [
+      1,
+      58,
+      49,
+      7
+    ],
+    [
+      5,
+      9,
+      88,
+      3
+    ],
+    [
+      0,
+      5,
+      19,
+      50
+    ]
+  ],
+  "trained_on": "2026-11-24 19:36"
+}
