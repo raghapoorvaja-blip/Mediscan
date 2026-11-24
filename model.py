@@ -23,9 +23,7 @@ from preprocessing import IMG_SIZE
 # ----------------------------------------------------------------------------
 # File locations (can be changed with the MEDISCAN_MODEL_DIR environment variable)
 # ----------------------------------------------------------------------------
-MODEL_DIR = os.environ.get(
-    "MEDISCAN_MODEL_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
-)
+MODEL_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(MODEL_DIR, "brain_mri_model.keras")
 INFO_PATH = os.path.join(MODEL_DIR, "model_info.json")
 
